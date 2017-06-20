@@ -1,0 +1,108 @@
+/**/
+html,body{
+	height: 100%;
+	width: 100%;
+	 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-user-select:none;
+	user-select:none;
+	font-family:-apple-system,BlinkMacSystemFont,Roboto,"PingFang SC","Hiragino Sans GB","Source Han Sans CN",sans-serif;
+}
+.tel{
+		color:#0076FF;	
+	}
+
+/*@media (min-width: 375px){
+		html {
+    		font-size: 10px;
+		}
+}
+ 
+
+
+@media (min-width: 360px){
+	    html {
+    		font-size: 9.6px;
+		}	
+}
+ 
+
+@media (min-width: 320px){
+	html {
+	    font-size: 9px;
+	}	
+}
+ */
+
+
+[v-cloak] {
+  display: none;
+}
+.showMask{
+  opacity: 0;
+  transition: opacity .8s ease-out;
+}
+.showAll{
+  opacity: 1;
+}
+.hidden{
+	visibility: hidden;
+}
+.text-center{
+	text-align: center !important;
+}
+.mint-indicator-text{
+	font-size: 0.3733rem !important;
+}
+
+.title-text{
+	 width: 100%;
+	 overflow: hidden;
+	 white-space: nowrap;  
+	 text-overflow: ellipsis;
+}
+
+#app{
+	height: 100%;
+}
+
+.pt-relative{
+	position: relative;
+	padding-bottom:1.1rem;
+	box-sizing: border-box;
+	min-height: 100% !important;
+    height: auto !important;
+
+}
+.pt-relative .footer-tel{
+	bottom: 0;
+}
+
+/*panel*/
+
+.p-header-active{
+		background: #F5F5F5;
+
+}
+/*法律文件*/
+.p-item{
+	line-height: 0.48rem;
+	padding: 0.30rem 0 0.10rem 0;
+	border-bottom: 1px dashed #bfbebe;
+	font-size: 0.3733rem;
+	width: 100%;
+	color: #4f4f4f;
+
+}
+.p-item-time{
+	text-align: right;
+	color: #999;
+	font-size: 0.32rem;
+	padding-top: 0.1333rem;
+}
+.p-empty{
+	line-height: 0.8rem;
+}
+/*panel*/
