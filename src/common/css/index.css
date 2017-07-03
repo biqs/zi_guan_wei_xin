@@ -1,0 +1,15 @@
+/*indicator 重写*/
+.mint-indicator-mask {
+    top: 0;
+    left: 0;
+    bottom: 1.35rem;
+    right: 0;
+    position: fixed;
+    width: auto; 
+    height:auto; 
+    opacity: 1; 
+    background: #f9f9f9;
+}
+.mint-indicator-wrapper{
+	z-index: 999999;
+}
